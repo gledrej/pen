@@ -66,8 +66,6 @@ bottom: 0;
 left: 0; 
 display:block;
 margin: auto;
-min-width: 320px;
-max-width: 600px;
 width: 100%;
 }
 /* стили модального окна */

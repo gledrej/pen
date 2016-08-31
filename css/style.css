@@ -363,9 +363,7 @@ img{
 .block-8 .prize{
     border: 3px solid #FA581D;
     border-radius: 5px;
-    width: 350px;
     padding: 15px;
-    margin: 45px;
     font-size: 16px;
 }
 
@@ -405,7 +403,6 @@ img{
     -moz-background-size: 100%; /* Firefox 3.6+ */
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
 
 }
 
@@ -416,6 +413,7 @@ img{
 
 .block-10 {
     padding-top: 20px ;
+    padding-bottom: 20px ;
     font-size: 26px;
 }
 
@@ -428,12 +426,13 @@ img{
 
 .block-12-bg{
     background: url(../images/about.png) no-repeat;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
-    height: 200px;
-    margin: 50px 0;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    /* background-size: 100%; */
+    /* height: 200px; */
+    /* margin: 50px 0; */
+    padding-bottom: 30px;
 }
 
 .block-12-title{
@@ -451,7 +450,7 @@ img{
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
+    /* background-size: 100%; */
     height: 475px;
     margin: 10px 0;
 }
@@ -517,12 +516,13 @@ img{
 .block-16-bg{
     background: url(../images/preim-pen.jpg) no-repeat;
     -moz-background-size: 100%;
-    -webkit-background-size: 100%;
+    /* -webkit-background-size: 100%; */
     -o-background-size: 100%;
-    background-size: 100%;
-    height: 960px;
+    /* background-size: 100%; */
+    /* height: 960px; */
     margin: 35px 0;
     width: 100%;
+}
 }
 
 .block-color-red{
@@ -544,7 +544,7 @@ img{
 }
 
 .block-16-text{
-    font-size: 25px;
+    font-size: 23px;
     font-family: Arial;
     color: #000;
     padding: 0px 20px;
@@ -616,7 +616,7 @@ img{
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
+
     width: 100%;
     margin-top: 100px;
 
@@ -628,8 +628,6 @@ img{
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
-    padding: 12%;
     width: 100%;
 }
 
@@ -642,17 +640,14 @@ img{
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
     width: 100%;
-    padding: 15%;
 }
 
 .block-22-bg-img img{
     width: 100%;
-    margin-top: -165px;
+    padding-top: 30px;
 }
 
 .block-23-img img{
     width: 100%;
-    margin-top: -115px;
 }
