@@ -1,0 +1,154 @@
+/* font-family: "IntroRegular"; */
+@font-face {
+    font-family: "IntroRegular";
+    src: url("../fonts/IntroRegular/IntroRegular.eot");
+    src: url("../fonts/IntroRegular/IntroRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/IntroRegular/IntroRegular.woff") format("woff"),
+    url("../fonts/IntroRegular/IntroRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "IntroInline"; */
+@font-face {
+    font-family: "IntroInline";
+    src: url("../fonts/IntroInline/IntroInline.eot");
+    src: url("../fonts/IntroInline/IntroInline.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/IntroInline/IntroInline.woff") format("woff"),
+    url("../fonts/IntroInline/IntroInline.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "ArialRegular"; */
+@font-face {
+    font-family: "ArialRegular";
+    src: url("../fonts/ArialRegular/ArialRegular.eot");
+    src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialRegular/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialBold"; */
+@font-face {
+    font-family: "ArialBold";
+    src: url("../fonts/ArialBold/ArialBold.eot");
+    src: url("../fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBold/ArialBold.woff") format("woff"),
+    url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialItalic"; */
+@font-face {
+    font-family: "ArialItalic";
+    src: url("../fonts/ArialItalic/ArialItalic.eot");
+    src: url("../fonts/ArialItalic/ArialItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialItalic/ArialItalic.woff") format("woff"),
+    url("../fonts/ArialItalic/ArialItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialBlack"; */
+@font-face {
+    font-family: "ArialBlack";
+    src: url("../fonts/ArialBlack/ArialBlack.eot");
+    src: url("../fonts/ArialBlack/ArialBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBlack/ArialBlack.woff") format("woff"),
+    url("../fonts/ArialBlack/ArialBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialBoldItalic"; */
+@font-face {
+    font-family: "ArialBoldItalic";
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot");
+    src: url("../fonts/ArialBoldItalic/ArialBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.woff") format("woff"),
+    url("../fonts/ArialBoldItalic/ArialBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover {
+    text-decoration: none;
+}
+
+body{
+    font-family: "IntroRegular";
+}
+
+
+.block-1-img img{
+    width: 50%;
+    padding: 10px;
+}
+
+.block-1-phone{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.block-1-bottom{
+
+    font-size: 12px;
+    padding: 5px 80px;
+}
+
+
+.block-1-bottom-knopka{
+    background-color: green;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.block-2-fon-img{
+    width: 100%;
+}
+
+.block-2-bottum{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    margin: 0px auto;
+}
+
+
+
+.block-2-bottum-1{
+    background-color: green;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 10px;
+    width: 35%;
+    margin: 0px auto;
+}
+
+.block-2-bottum-2{
+    background-color: green;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 10px;
+    width: 35%;
+    margin: 0px auto;
+}
+
+.block-2{
+    position: relative;
+}
+
+
+.block-title{
+    font-size: 25pt;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 40px 0;
+}
